@@ -2,15 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 export const studentSlice = createSlice({
   name: "student",
-  initialState: [
-    {
-      maSoSV: "018H0268",
-      hoTen: "Celine",
-      soDienThoai: "0123456789",
-      email: "kieungi121lvl@gmail.com",
-      chucNang: "",
-    },
-  ],
+  initialState: [],
   reducers: {
     addStudent: (state, action) => {
       state.push(action.payload);

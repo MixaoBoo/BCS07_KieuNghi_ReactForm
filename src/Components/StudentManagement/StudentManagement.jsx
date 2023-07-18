@@ -30,6 +30,7 @@ const StudentManagement = () => {
         setStudent={setStudent}
         checkDisabled={checkDisabled}
         setCheckDisabled={setCheckDisabled}
+        setTempListStudent={setTempListStudent}
       />
       <ListStudent
         setCheckDisabled={setCheckDisabled}
